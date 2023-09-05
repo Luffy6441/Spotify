@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="./assets/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <!-- This is Left Panel -->
+        <div class="sidebar">
+
+            <div class="home-subpanel">
+                
+                <div class="link-flex">
+                    
+                    <img src="./assets/home.png" alt="Home">
+                    <a href="#">Home</a>
+                
+                </div>
+
+                <div class="link-flex">
+
+                    <img src="./assets/search.png" alt="Search">
+                    <a href="#">Search</a>
+
+                </div>
+            
+            </div>
+            
+            <div class="library">
+                
+                <div class="flex-top">
+
+                    <div class="link-flex">
+                        <img src="./assets/playlist.png" alt="Library">
+                        <p>Your Library</p>
+                    </div>
+
+                    <div class="link-flex">
+                        <img src="./assets/plus.png">
+                        <img src="./assets/boxes.png">
+                    </div>
+
+                </div>
+
+                <div class="link-flex" style="gap: 0.5rem;">
+                    <div class="chip">Playlist</div>
+                    <div class="chip">Artists</div>
+                    <div class="chip">Podcasts & Shows</div>
+                </div>
+
+                <div class="albums">
+                    
+                    <div class="flex-top" style="margin-top: 0.5rem; margin-bottom: 0.5rem;">
+                        <img src="./assets/search.png" alt="Search">
+                        <p>Recents <i class="fa-solid fa-caret-down" style="margin-left: 0.3rem;"></i></p>
+                    </div>
+
+                    <div class="playlist">
+                        
+                        <div class="link-flex album-flex">
+                            <img src="./assets/mix1.jpeg" class="album-cover">
+                            <div class="col-flex">
+                                <p class="album-name">Workout</p>
+                                <p>Playlist &#x2022; Spotify</p>
+                            </div>
+                        </div>
+
+                        <div class="link-flex album-flex">
+                            <img src="./assets/mix1.jpeg" class="album-cover">
+                            <div class="col-flex">
+                                <p class="album-name">Workout</p>
+                                <p>Playlist &#x2022; Spotify</p>
+                            </div>
+                        </div>
+
+                        <div class="link-flex album-flex">
+                            <img src="./assets/mix1.jpeg" class="album-cover">
+                            <div class="col-flex">
+                                <p class="album-name">Workout</p>
+                                <p>Playlist &#x2022; Spotify</p>
+                            </div>
+                        </div>
+
+                        <div class="link-flex album-flex">
+                            <img src="./assets/mix1.jpeg" class="album-cover">
+                            <div class="col-flex">
+                                <p class="album-name">Workout</p>
+                                <p>Playlist &#x2022; Spotify</p>
+                            </div>
+                        </div>
+
+                        <div class="link-flex album-flex">
+                            <img src="./assets/mix1.jpeg" class="album-cover">
+                            <div class="col-flex">
+                                <p class="album-name">Workout</p>
+                                <p>Playlist &#x2022; Spotify</p>
+                            </div>
+                        </div>
+
+                        <div class="link-flex album-flex">
+                            <img src="./assets/mix1.jpeg" class="album-cover">
+                            <div class="col-flex">
+                                <p class="album-name">Workout</p>
+                                <p>Playlist &#x2022; Spotify</p>
+                            </div>
+                        </div>
+
+                        <div class="link-flex album-flex">
+                            <img src="./assets/mix1.jpeg" class="album-cover">
+                            <div class="col-flex">
+                                <p class="album-name">Workout</p>
+                                <p>Playlist &#x2022; Spotify</p>
+                            </div>
+                        </div>
+
+                        <div class="link-flex album-flex">
+                            <img src="./assets/mix1.jpeg" class="album-cover">
+                            <div class="col-flex">
+                                <p class="album-name">Workout</p>
+                                <p>Playlist &#x2022; Spotify</p>
+                            </div>
+                        </div>
+
+                        <div class="link-flex album-flex">
+                            <img src="./assets/mix1.jpeg" class="album-cover">
+                            <div class="col-flex">
+                                <p class="album-name">Workout</p>
+                                <p>Playlist &#x2022; Spotify</p>
+                            </div>
+                        </div>
+
+                        <div class="link-flex album-flex">
+                            <img src="./assets/mix1.jpeg" class="album-cover">
+                            <div class="col-flex">
+                                <p class="album-name">Workout</p>
+                                <p>Playlist &#x2022; Spotify</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        
+        </div>
+        
+        <!-- This is Right Panel -->
+        <div class="main-content">
+            
+            <div class="navbar">
+
+                <div class="link-flex">
+                    <img src="./assets/back_navigation.png">
+                    <img src="./assets/forward_navigation.png">
+                </div>
+
+                <div class="link-flex" style="gap: 0; column-gap: 0.5rem;">
+
+                    <div class="chip">Upgrade</div>
+                    <div class="chip">Install App</div>
+                    
+                </div>
+
+            </div>
+
+            <div class="list">
+
+                <div class="list-heading">
+                    <div class="title">Recently Played</div>
+                    <div class="more">Show all</div>
+                </div>
+
+                <div class="cards-container">
+
+                    <div class="card">
+                        <img src="./assets/mix1.jpeg" class="card-img">
+                        <p class="card-name">Workout</p>
+                        <p class="card-description">Pop hits to keep you fresh!</p>
+                    </div>
+    
+                    <div class="card">
+                        <img src="./assets/mix1.jpeg" class="card-img">
+                        <p class="card-name">Workout</p>
+                        <p class="card-description">Pop hits to keep you fresh!</p>
+                    </div>
+    
+                    <div class="card">
+                        <img src="./assets/mix1.jpeg" class="card-img">
+                        <p class="card-name">Workout</p>
+                        <p class="card-description">Pop hits to keep you fresh!</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/mix1.jpeg" class="card-img">
+                        <p class="card-name">Workout</p>
+                        <p class="card-description">Pop hits to keep you fresh!</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/mix1.jpeg" class="card-img">
+                        <p class="card-name">Workout</p>
+                        <p class="card-description">Pop hits to keep you fresh!</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/mix1.jpeg" class="card-img">
+                        <p class="card-name">Workout</p>
+                        <p class="card-description">Pop hits to keep you fresh!</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="list">
+
+                <div class="list-heading">
+                    <div class="title">Made For You</div>
+                    <div class="more">Show all</div>
+                </div>
+
+                <div class="cards-container">
+
+                    <div class="card">
+                        <img src="./assets/mix1.jpeg" class="card-img">
+                        <p class="card-name">Workout</p>
+                        <p class="card-description">Pop hits to keep you fresh!</p>
+                    </div>
+    
+                    <div class="card">
+                        <img src="./assets/mix1.jpeg" class="card-img">
+                        <p class="card-name">Workout</p>
+                        <p class="card-description">Pop hits to keep you fresh!</p>
+                    </div>
+    
+                    <div class="card">
+                        <img src="./assets/mix1.jpeg" class="card-img">
+                        <p class="card-name">Workout</p>
+                        <p class="card-description">Pop hits to keep you fresh!</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/mix1.jpeg" class="card-img">
+                        <p class="card-name">Workout</p>
+                        <p class="card-description">Pop hits to keep you fresh!</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/mix1.jpeg" class="card-img">
+                        <p class="card-name">Workout</p>
+                        <p class="card-description">Pop hits to keep you fresh!</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/mix1.jpeg" class="card-img">
+                        <p class="card-name">Workout</p>
+                        <p class="card-description">Pop hits to keep you fresh!</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="list">
+
+                <div class="list-heading">
+                    <div class="title">Your top mixes</div>
+                    <div class="more">Show all</div>
+                </div>
+
+                <div class="cards-container">
+
+                    <div class="card">
+                        <img src="./assets/mix1.jpeg" class="card-img">
+                        <p class="card-name">Workout</p>
+                        <p class="card-description">Pop hits to keep you fresh!</p>
+                    </div>
+    
+                    <div class="card">
+                        <img src="./assets/mix1.jpeg" class="card-img">
+                        <p class="card-name">Workout</p>
+                        <p class="card-description">Pop hits to keep you fresh!</p>
+                    </div>
+    
+                    <div class="card">
+                        <img src="./assets/mix1.jpeg" class="card-img">
+                        <p class="card-name">Workout</p>
+                        <p class="card-description">Pop hits to keep you fresh!</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/mix1.jpeg" class="card-img">
+                        <p class="card-name">Workout</p>
+                        <p class="card-description">Pop hits to keep you fresh!</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/mix1.jpeg" class="card-img">
+                        <p class="card-name">Workout</p>
+                        <p class="card-description">Pop hits to keep you fresh!</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/mix1.jpeg" class="card-img">
+                        <p class="card-name">Workout</p>
+                        <p class="card-description">Pop hits to keep you fresh!</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        
+        <!-- This is Player -->
+        <div class="player">
+
+            <div class="song-details"></div>
+
+            <div class="player-center">
+
+                <div class="player-controls">
+
+                    <i class="fa-solid fa-shuffle fa-lg" style="height: 1rem;margin: 1rem; padding: 0.1rem; opacity: 0.8;" onmouseover="this.style.color= '#1db954';" onmouseout="this.style.color= '#fff'"></i>
+                    
+                    <i class="fa-solid fa-backward-step fa-xl" style="height: 1rem; padding: 0.2rem; margin: 1rem; opacity: 0.8;" onmouseover="this.style.color= '#1db954';" onmouseout="this.style.color= '#fff'"></i>
+
+                    <i class="fa-solid fa-circle-play fa-2xl" style="height: 1rem; padding: 0.2rem; margin: 1rem; opacity: 0.8;" onmouseover="this.style.color= '#1db954';" onmouseout="this.style.color= '#fff'"></i>
+
+                    <i class="fa-solid fa-forward-step fa-xl" style="height: 1rem; padding: 0.2rem; margin: 1rem; opacity: 0.8;" onmouseover="this.style.color= '#1db954';" onmouseout="this.style.color= '#fff'"></i>
+
+                    <i class="fa-solid fa-repeat fa-lg" style="height: 1rem; padding: 0.1rem; margin: 1rem; opacity: 0.8;" onmouseover="this.style.color= '#1db954';" onmouseout="this.style.color= '#fff'"></i>
+                    
+                </div>
+
+                <div class="player-timeline">
+                    
+                    <span class="current-time">0:00</span>
+
+                    <input
+                      type="range"
+                      class="timeline-slider"
+                      min="0"
+                      max="100"
+                      step="1"
+                      value="0"
+                    >
+
+                    <span class="total-time">0:00</span>
+
+                </div>
+
+            </div>
+
+            <div class="volume-controls">
+
+                <div class="volume-controls">
+
+                    <img
+                      src="./assets/device.png"
+                      style="height: 1rem; margin-right: 1rem; opacity: 0.8"
+                      alt="Volume">
+
+                    <img
+                      src="./assets/playlist.png"
+                      style="height: 1rem; margin-right: 1rem; opacity: 0.8"
+                      alt="Settings">
+
+                    <img
+                      src="./assets/music.png"
+                      style="height: 1rem; margin-right: 1rem; opacity: 0.8"
+                      alt="Fullscreen">
+
+                    <input
+                      type="range"
+                      class="volume-slider"
+                      min="0"
+                      max="100"
+                      step="1"
+                      value="50"
+                    >
+
+                  </div>
+
+            </div>
+
+        </div>
+    
+    </div>
+</body>
+
+</html>
